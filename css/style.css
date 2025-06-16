@@ -133,7 +133,25 @@ img {
         width: 100%;
     }
 
+    .col {
+        width: 100%;
+    }
+
     .steps {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
 }
