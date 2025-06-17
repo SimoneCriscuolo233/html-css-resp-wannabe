@@ -151,16 +151,25 @@ img {
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        width: 100%;
     }
 
-    .steps .col {
+    .steps .col,
+    .lessons .col,
+    .why-us .col-left,
+    .why-us .col-right {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .lessons .col {
-        width: 100%;
-        margin-bottom: 30px;
+    .steps .col:last-child,
+    .lessons .col:last-child,
+    .why-us .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
     }
 
 }
