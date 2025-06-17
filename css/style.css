@@ -154,6 +154,10 @@ img {
         width: 100%;
     }
 
+    .steps {
+        margin-bottom: 0;
+    }
+
     .steps .col,
     .lessons .col,
     .why-us .col-left,
@@ -170,6 +174,9 @@ img {
 
     .why-us {
         background-color: #222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
+
     }
 
 }
